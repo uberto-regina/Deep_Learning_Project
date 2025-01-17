@@ -54,3 +54,6 @@ The steps are similar to CIFAR10, with the following differences:
 7. **Seventh Cell**: Define the strategy (model, loss function, optimizer, and other hyperparameters).
 8. **Eighth Cell**: Train and evaluate the model.
 9. **Ninth Cell (Optional)**: For saving outputs, similar to the second cell.
+
+
+At the end of the process, after the data was already collected, all files were rerun to verify everything was correct. The execution was manually stopped a few seconds later, which is why a `KeyboardInterrupt` appears for all the training cells
